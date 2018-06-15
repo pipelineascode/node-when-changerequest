@@ -16,7 +16,7 @@ node{
 		println "${env.BUILD_TAG}"
 		println "${env.CHANGE_ID}"
 		println "${env.CHANGE_URL}"
-		println "${env.CHANGE_TITLE}"
+		println "CHANGE_TITLE ${env.CHANGE_TITLE}"
 		println "${env.CHANGE_AUTHOR}"
 		println "${env.CHANGE_AUTHOR_DISPLAY_NAME}"
 		println "${env.CHANGE_AUTHOR_EMAIL}"
